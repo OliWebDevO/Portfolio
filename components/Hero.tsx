@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import { BackgroundBeams } from './ui/BackgroundBeams'
 
 const Hero = () => {
   return (
@@ -40,6 +41,9 @@ const Hero = () => {
                 </a>
             </div>
         </div>
+        {/* <div className='flex relative justify-center h-screen w-full'>
+            <BackgroundBeams />
+        </div> */}
     </div>
   )
 }

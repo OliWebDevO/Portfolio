@@ -20,8 +20,8 @@ const Hero = () => {
         </div>
         <div className='flex justify-center relative my-20 z-10'>
             <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-                <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                    Dynamic Web Magic with Next.js
+                <h2 className='uppercase tracking-widest text-md text-center text-blue-100 max-w-80'>
+                    Oliver Van Droogenbroeck
                     
                 </h2>
                 <TextGenerateEffect 
@@ -29,14 +29,15 @@ const Hero = () => {
                     className='text-[40px] md:text-5xl lg:text-6xl text-center'
                 />
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    I am a Front-End web developer with a passion for creating dynamic web applications. 
-                    I specialize in building web applications with Next.js, React, and Tailwind CSS.
+                    I am a Front-End web developer with a passion for creating dynamic web site & applications. 
+                   Whether it is a web applications using Next.js, React, and Tailwind CSS or a small business website using custom crafted wordpress themes.
+                   I have a package that suits your needs.
                 </p>
                 <a href="">
                     <MagicButton 
                     title='Get in Touch'
                     icon={<FaLocationArrow />}
-                    position='right'
+                    position='left'
                     />
                 </a>
             </div>
